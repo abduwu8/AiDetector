@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a cutting-edge AI detection tool built with **Next.js**, **React**, and **COCO-SSD**. It enables real-time object and people detection through webcam input, leveraging the power of machine learning to classify and identify objects with high accuracy.
 
-## Getting Started
+## Features
 
-First, run the development server:
+- **Real-Time Object Detection**: Detect and classify objects and people via webcam.
+- **Built with Next.js and React**: Modern JavaScript technologies for smooth performance and user experience.
+- **COCO-SSD Model**: Uses the COCO-SSD (Single Shot MultiBox Detector) for efficient and accurate object detection.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: A React-based framework for building server-side rendered applications.
+- **React**: A popular JavaScript library for building interactive user interfaces.
+- **COCO-SSD**: A pre-trained deep learning model for object detection.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I welcome contributions! To contribute:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1) Fork the repository.
+2) Create a new branch (git checkout -b feature-branch).
+3) Commit your changes (git commit -am 'Add new feature').
+4) Push to the branch (git push origin feature-branch).
+5) Open a pull request.
